@@ -1,0 +1,37 @@
+<?php
+
+$__['Address'] = "Adres";
+$__['Address: %s'] = "Adres: %s";
+$__['Alert confirmation for Antwerp parking bans'] = "Bevestiging van melding parkeerverboden in Antwerpen";
+$__['Bans in this area at the moment:'] = "Active parkeeverboden op dit moment:";
+$__['Email address'] = "E-mailadres";
+$__['From'] = "Vanaf";
+$__['From:'] = "Vanaf:";
+$__['Hours: %s'] = "Tijden: %s";
+$__['Latitude'] = "Breedtegraad";
+$__['Latitude: %s'] = "Breedtegraad: %s";
+$__['Link'] = "Link";
+$__['Link: %s'] = "Link: %s";
+$__['Location'] = "Locatie";
+$__['Location: %s'] = "Locatie : %s";
+$__['Longitude'] = "Lengtegraad";
+$__['Longitude: %s'] = "Lengtegraad : %s";
+$__['New parking bans in Antwerp'] = "Nieuwe parkeerverboden in Antwerpen";
+$__['New parking bans:'] = "Nieuwe parkeerverboden:";
+$__['No ban in this area at the moment.'] = "Geen parkeerverbod op dit moment.";
+$__['only on weekdays'] = "enkel op weekdagen";
+$__['Period'] = "Periode";
+$__['Reason'] = "Reden";
+$__['Reason: %s'] = "Motivatie: %s";
+$__['Reference number'] = "Referentie&shy;nummer";
+$__['Send your remarks or enquiries to %s'] = "Stuur uw opmerkingen of vragen naar %s";
+$__['Set an alert'] = "Een melding ontvangen";
+$__['The alert will be valid from %s to %s, you can set a new one afterwards if you want.'] = "De melding zal geldig zijn van %s tot %s, je kan nadien een nieuwe instellen als je dat wenst.";
+$__['To'] = "Tot";
+$__['To:'] = "Tot:";
+$__['whole day'] = "hele dag";
+$__['You can cancel this alert at the following address;'] = "U kunt deze n opzeggen op het volgende adres:";
+$__['You can see these details and cancel this alert at the following address:'] = "U kunt deze gegevens inzien en deze melding annuleren op het volgende adres:";
+$__['You just setup an alert for receiving a notification for new parking bans in Antwerp at the following location:'] = "U heeft een waarschuwing ingesteld voor het ontvangen van een melding voor nieuwe parkeerverboden in Antwerpen op de volgende locatie:";
+$__['You will receive a confirmation email with a link that allows you to cancel this alert. If you do not cancel it, the alert will be active for one week.'] = "U ontvangt een bevestigingse-mail met een link om deze melding te annuleren. Als u deze niet annuleert, blijft de melding nog een week actief.";
+$__['Cancel this alert'] = "Verwijder deze melding";

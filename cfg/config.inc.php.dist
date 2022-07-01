@@ -1,0 +1,16 @@
+<?php // vim: set ft=php noexpandtab sw=4 sts=4 ts=4
+
+$config = [
+	'title' => 'Antwerpen parkeerverbod alerts',
+	'base_path' => 'https://example.com',
+	'logging' => [
+		'directory' => __DIR__.'/../app-logs/',
+	],
+	'database' => [
+		'dsn' => 'sqlite:'.__DIR__.'/../db/database.db',
+	],
+	'contact' => '',
+	'email_from' => '',
+	'data_url' => 'https://parkeerverbod.antwerpen.be/features/parkingBanIntake?from_date=%date',
+];
+

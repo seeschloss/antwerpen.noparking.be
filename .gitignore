@@ -1,0 +1,7 @@
+cert/*
+app-logs/*
+cfg/config.inc.php
+logs/*
+db/*.db
+www/.well-known
+*.swp

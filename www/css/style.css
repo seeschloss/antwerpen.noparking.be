@@ -1,0 +1,272 @@
+@media screen and (max-width: 768px) {
+	body {
+		font-size: 70%;
+	}
+
+	body #middle {
+		flex-direction: column;
+	}
+}
+
+html, body {
+	margin: 0;
+	height: 100%;
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+a {
+	color: #4C4747;
+}
+
+a:hover {
+	  text-decoration: none;
+}
+
+#topbar {
+	flex: 0;
+	background-color: #5C5757;
+	z-index: 3;
+	box-shadow: 0px 0 3px 2px rgba(0, 0, 0, 0.4);
+	color: rgba(255, 255, 255, 0.9);
+}
+
+#topbar h1 {
+	margin: 5px 1em;
+}
+
+#topbar h1 a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#topbar #lang {
+	float: right;
+	margin: 7px 1em;
+}
+
+#footer {
+	min-height: 30px;
+	background-color: #4C4747;
+	flex-basis: 30px;
+	line-height: 30px;
+	padding: 0 1ex;
+	color: rgba(255, 255, 255, 0.9);
+}
+
+#footer a {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+#footer .location {
+	font-size: 95%;
+	font-feature-settings: "onum";
+}
+
+#middle {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	flex-basis: 100%;
+}
+
+#content {
+	flex-basis: 100%;
+}
+
+#content-box {
+	flex-basis: 100%;
+	flex-grow: 1;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}
+
+@media screen and (max-width: 768px) {
+	#sidebar {
+		flex-basis: 50px;
+	}
+
+	#sidebar a {
+		margin-left: 0;
+	}
+
+	#sidebar > ul > li.submenu > label {
+		display: none;
+	}
+
+	#sidebar > ul > li.submenu > ul {
+		display: none;
+	}
+}
+
+#content {
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table th, td {
+	text-align: left;
+	vertical-align: top;
+	padding: 1em 1ex;
+}
+
+td {
+	border-top: 1px solid rgba(10, 0, 0, 0.3);
+}
+
+button {
+	background-color: rgb(232, 232, 231);
+	cursor: pointer;
+}
+
+a.button {
+	background-color: rgb(232, 232, 231);
+	text-decoration: none;
+}
+
+a.button:hover {
+	text-decoration: none;
+}
+
+textarea {
+	min-height: 100px;
+	resize: vertical;
+}
+
+select {
+	padding: 1px 0;
+}
+
+select + button, select + a.button {
+	margin-left: 1em;
+}
+
+select, textarea, input, button, a.button {
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+	font-size: 100%;
+}
+
+textarea, input, button, a.button {
+	font-style: normal;
+	font-weight: 500;
+	border: 1px solid rgba(10, 0, 0, 0.3);
+	border-radius: 3px;
+	padding: 6px 9px;
+}
+
+@media screen and (max-width: 768px) {
+	#modal-content {
+		width: 400px;
+		max-width: 80%;
+	}
+}
+
+#modal img {
+	max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+dl {
+	width: 100%;
+	max-width: 600px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+dl > dt {
+	box-sizing: border-box;
+	padding: 7px 1ex;
+	text-align: right;
+	font-weight: 500;
+	font-size: 90%;
+	font-weight: 500;
+	flex-basis: 20%;
+	box-sizing: border-box;
+	border-bottom: 1px solid grey;
+}
+
+dl > dd {
+	margin: 0;
+	padding: 7px 1ex;
+	display: flex;
+	align-content: stretch;
+	align-items: flex-start;
+	white-space: pre-wrap;
+	flex-basis: 80%;
+	box-sizing: border-box;
+	border-bottom: 1px solid grey;
+}
+
+dl > dt.title {
+	flex-basis: 100%;
+	text-align: left;
+	font-size: 110%;
+	border: none;
+}
+
+dl > dt.title + dd {
+	flex-basis: 100%;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Thin), url("../fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("../fonts/roboto/Roboto-Thin.woff") format("woff");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Light), url("../fonts/roboto/Roboto-Light.woff2") format("woff2"), url("../fonts/roboto/Roboto-Light.woff") format("woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Regular), url("../fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/Roboto-Regular.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Medium), url("../fonts/roboto/Roboto-Medium.woff2") format("woff2"), url("../fonts/roboto/Roboto-Medium.woff") format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Bold), url("../fonts/roboto/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/Roboto-Bold.woff") format("woff");
+  font-weight: 700;
+}
+
+.leaflet-popup-content dl {
+	display: grid;
+	grid-template: auto / 60px 1fr;
+}
+
+.leaflet-popup-content dt, .leaflet-popup-content dd {
+	margin: 0;
+}
+
+.leaflet-popup-content dt {
+	padding-left: 1ex;
+}
